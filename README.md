@@ -14,7 +14,7 @@ Step 6: Build the ARMA Model - Based on the insights from the ACF and PACF plots
 Step 7: Forecast and Plot - Forecast into the future and plot the results.  
 Step 8: Analyze the Residuals - Check if the residuals look like white noise.  
 
-<img src="images/1.png" alt="My Image" width="700"/>
+<img src="images/3.png" alt="My Image" width="700"/>
 <img src="images/2.png" alt="My Image" width="700"/>
 
 # Key Statistics
