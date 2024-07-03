@@ -19,18 +19,18 @@ Step 8: Analyze the Residuals - Check if the residuals look like white noise.
 
 # Key Statistics
 
-Log Likelihood: -8118.279 - A measure of model fit; higher values indicate a better fit.
-AIC (Akaike Information Criterion): 16250.558 - Lower values indicate a better model.
-BIC (Bayesian Information Criterion): 16292.411 - Lower values indicate a better model.
-HQIC (Hannan-Quinn Information Criterion): 16265.634 - Lower values indicate a better model.
-Ljung-Box (L1) (Q): 15.03 - This is a test for autocorrelation in the residuals. The p-value (Prob(Q)) of 0.00 indicates significant autocorrelation.
-Heteroskedasticity (H): 2.62 - A test for heteroskedasticity (non-constant variance). The p-value (Prob(H)) of 0.00 indicates significant heteroskedasticity.
-Jarque-Bera (JB): 18738.52 - A test for normality of residuals. The p-value (Prob(JB)) of 0.00 indicates that the residuals are not normally distributed.
-Skew: -0.58 - Indicates the asymmetry of the residuals distribution.
-Kurtosis: 15.36 - Indicates the "tailedness" of the residuals distribution.
+Log Likelihood: -8118.279 - A measure of model fit; higher values indicate a better fit.  
+AIC (Akaike Information Criterion): 16250.558 - Lower values indicate a better model.  
+BIC (Bayesian Information Criterion): 16292.411 - Lower values indicate a better model.  
+HQIC (Hannan-Quinn Information Criterion): 16265.634 - Lower values indicate a better model.  
+Ljung-Box (L1) (Q): 15.03 - This is a test for autocorrelation in the residuals. The p-value (Prob(Q)) of 0.00 indicates significant autocorrelation.  
+Heteroskedasticity (H): 2.62 - A test for heteroskedasticity (non-constant variance). The p-value (Prob(H)) of 0.00 indicates significant heteroskedasticity.  
+Jarque-Bera (JB): 18738.52 - A test for normality of residuals. The p-value (Prob(JB)) of 0.00 indicates that the residuals are not normally distributed.  
+Skew: -0.58 - Indicates the asymmetry of the residuals distribution.  
+Kurtosis: 15.36 - Indicates the "tailedness" of the residuals distribution.  
 
 # Interpretation
 
-Significant AR and MA Terms: The model has significant AR(2), AR(3), and MA(2) terms, suggesting these terms are important for the model. The non-significant AR(1) and MA(1), MA(3) terms suggest they might not contribute significantly to the model.
-Residual Diagnostics: The Ljung-Box test indicates significant autocorrelation in the residuals, which is a concern. The heteroskedasticity test and the Jarque-Bera test suggest issues with the residual variance and normality, respectively.
-Model Fit: The AIC, BIC, and HQIC values can be used to compare this model to other models. Lower values indicate a better fit, but considering residual diagnostics is crucial.
+Significant AR and MA Terms: The model has significant AR(2), AR(3), and MA(2) terms, suggesting these terms are important for the model. The non-significant AR(1) and MA(1), MA(3) terms suggest they might not contribute significantly to the model.  
+Residual Diagnostics: The Ljung-Box test indicates significant autocorrelation in the residuals, which is a concern. The heteroskedasticity test and the Jarque-Bera test suggest issues with the residual variance and normality, respectively.  
+Model Fit: The AIC, BIC, and HQIC values can be used to compare this model to other models. Lower values indicate a better fit, but considering residual diagnostics is crucial.  
