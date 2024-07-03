@@ -3,7 +3,7 @@ Building and Evaluating ARMA Models
 
 Dataset used was from https://www.kaggle.com/datasets/tunguz/gold-prices
 
-# Step by Step process
+# Step by Step Guide
 
 Step 1: Load the Data
 Step 2: Visualize the Data - It's good practice to visualize the data to get a sense of its trends and seasonality.
