@@ -6,13 +6,13 @@ Dataset used was from https://www.kaggle.com/datasets/tunguz/gold-prices
 # Step by Step Guide
 
 Step 1: Load the Data  
-Step 2: Visualize the Data - It's good practice to visualize the data to get a sense of its trends and seasonality.
-Step 3: Test for Stationarity - We will use the Augmented Dickey-Fuller test to check if the series is stationary.
-Step 4: Make the Series Stationary - If the data is not stationary, we need to apply transformations such as differencing.
-Step 5: Plot ACF and PACF - This will help us determine the potential orders for the ARMA model. https://www.youtube.com/watch?v=gqryqIlvEoM
-Step 6: Build the ARMA Model - Based on the insights from the ACF and PACF plots, select appropriate p and q values.
-Step 7: Forecast and Plot - Forecast into the future and plot the results.
-Step 8: Analyze the Residuals - Check if the residuals look like white noise.
+Step 2: Visualize the Data - It's good practice to visualize the data to get a sense of its trends and seasonality.  
+Step 3: Test for Stationarity - We will use the Augmented Dickey-Fuller test to check if the series is stationary.  
+Step 4: Make the Series Stationary - If the data is not stationary, we need to apply transformations such as differencing.  
+Step 5: Plot ACF and PACF - This will help us determine the potential orders for the ARMA model. https://www.youtube.com/watch?v=gqryqIlvEoM  
+Step 6: Build the ARMA Model - Based on the insights from the ACF and PACF plots, select appropriate p and q values.  
+Step 7: Forecast and Plot - Forecast into the future and plot the results.  
+Step 8: Analyze the Residuals - Check if the residuals look like white noise.  
 
 <img src="images/1.png" alt="My Image" width="700"/>
 <img src="images/2.png" alt="My Image" width="700"/>
