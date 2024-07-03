@@ -5,7 +5,7 @@ Dataset used was from https://www.kaggle.com/datasets/tunguz/gold-prices
 
 # Step by Step Guide
 
-Step 1: Load the Data 
+Step 1: Load the Data  
 Step 2: Visualize the Data - It's good practice to visualize the data to get a sense of its trends and seasonality.
 Step 3: Test for Stationarity - We will use the Augmented Dickey-Fuller test to check if the series is stationary.
 Step 4: Make the Series Stationary - If the data is not stationary, we need to apply transformations such as differencing.
